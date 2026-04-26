@@ -737,7 +737,7 @@
         const inputField = document.getElementById('secretInput');
         const errorDiv = document.getElementById('passError');
         const entered = inputField ? inputField.value.trim() : '';
-        // قبول كل من 
+        // قبول كل
         if(entered === SECRET_PASSWORD_AR || entered === SECRET_PASSWORD_AR_ALT) {
             startRomanceSequence().catch(err => console.warn(err));
         } else {
